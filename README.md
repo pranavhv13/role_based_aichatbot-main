@@ -147,7 +147,7 @@ Install the dependencies:
 pip install -r ../requirements.txt
 ```
 
-In a new terminal, start the LLaMA 3 model using Ollama:
+### 1. In a new terminal, start the LLaMA 3 model using Ollama:
 
 ```bash
 ollama run llama3
@@ -155,7 +155,7 @@ ollama run llama3
 📝 Keep this terminal open — it runs the local LLM engine.
 The first run will download the model (~3–4 GB).
 
-Go back to the backend terminal and start the FastAPI server:
+### 2. Go back to the backend terminal and start the FastAPI server:
 
 ```bash
 uvicorn main:app --reload
